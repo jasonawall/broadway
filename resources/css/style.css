@@ -1,0 +1,43 @@
+html, body {
+  text-align: center;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  height: 100%;
+  margin: 5;
+  padding: 0;
+}
+
+.header_container {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+.header_text {
+  position: absolute;
+   top: 0px;
+   width: 100%;
+}
+
+a {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
